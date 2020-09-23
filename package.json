@@ -1,0 +1,21 @@
+{
+  "name": "alexandrebetioli-backend",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "nodenv src/server.js --exec nodemon",
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "@mailchimp/mailchimp_marketing": "^3.0.14",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "md5": "^2.3.0",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "body-parser": "^1.19.0",
+    "node-env-run": "^4.0.1",
+    "nodemon": "^1.19.4"
+  }
+}
